@@ -62,22 +62,6 @@ That's it — no installation required.
 
 ---
 
-## 🌐 Deployment
-
-This site is static, so it can be hosted for free on either:
-
-**GitHub Pages**
-1. Go to the repository's **Settings → Pages**
-2. Under "Build and deployment", choose **Deploy from a branch**
-3. Select the branch and the `/My Portfolio` folder (or move the files to the repo root if Pages doesn't support a subfolder as the source), then save
-
-**Netlify**
-1. Go to [netlify.com](https://www.netlify.com) and sign in
-2. Choose **"Deploy manually"** and drag in the `My Portfolio` folder
-3. Netlify gives you a live link instantly
-
----
-
 ## 👩‍💻 About Me
 
 **Aiman Shabbir**
