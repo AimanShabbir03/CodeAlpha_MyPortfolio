@@ -34,10 +34,11 @@ A personal portfolio website built with plain **HTML, CSS, and JavaScript** — 
 ```
 CodeAlpha_MyPortfolio/
 ├── My Portfolio/
-│   ├── index.html      # Page markup/structure
-│   ├── style.css        # All styling (theme, layout, animations, responsive rules)
-│   └── script.js        # Nav toggle, scroll highlighting, contact form logic
-└── README.md             # Project documentation
+│   ├── index.html            # Page markup/structure
+│   ├── style.css              # All styling (theme, layout, animations, responsive rules)
+│   ├── script.js              # Nav toggle, scroll highlighting, contact form logic
+│   └── AimanShabbir_Resume.pdf # Downloadable resume (linked from the Resume section)
+└── README.md                   # Project documentation
 ```
 
 ---
