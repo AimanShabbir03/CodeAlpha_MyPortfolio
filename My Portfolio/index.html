@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aiman Shabbir — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="logo">Aiman Shabbir</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#resume" class="nav-link">Resume</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <p class="hero-kicker">Software Engineer &amp; Frontend Developer</p>
+      <h1 class="hero-title">I build software<br>that feels<span> effortless.</span></h1>
+      <p class="hero-sub">A Software Engineering graduate building clean, practical, user-friendly digital experiences — from frontend interfaces to mobile apps, backed by solid documentation and testing.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-orb" aria-hidden="true"></div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-photo" aria-hidden="true"></div>
+      <div class="about-text">
+        <h2>About</h2>
+        <p>I am a motivated Software Engineering graduate with a strong academic background and a passion for building practical, user-friendly software solutions. I have experience in software documentation, UI/UX design, project planning, and application development through academic and final year project work.</p>
+        <p>I'm a quick learner, problem solver, and team player with a strong interest in web and mobile technologies — currently deepening that through an industrial internship in software development, based in Abbottabad, Pakistan.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">Major projects built</span></div>
+          <div class="stat"><span class="stat-num">5</span><span class="stat-label">Certifications earned</span></div>
+          <div class="stat"><span class="stat-num">3.20</span><span class="stat-label">CGPA / 4.00</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <h2>Skills</h2>
+      <p class="section-lead">The tools and skills I reach for most, grouped by what they're actually for.</p>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Programming &amp; Development</h3>
+          <div class="chips">
+            <span class="chip">HTML &amp; CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">React</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Python</span>
+            <span class="chip">C</span>
+            <span class="chip">Java</span>
+            <span class="chip">Flutter</span>
+            <span class="chip">Dart</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend &amp; Database</h3>
+          <div class="chips">
+            <span class="chip">Firebase</span>
+            <span class="chip">Firebase Auth</span>
+            <span class="chip">Cloud Firestore</span>
+            <span class="chip">Firebase Storage</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Technologies</h3>
+          <div class="chips">
+            <span class="chip">Git &amp; GitHub</span>
+            <span class="chip">Figma</span>
+            <span class="chip">Selenium</span>
+            <span class="chip">TestNG</span>
+            <span class="chip">Automation Testing</span>
+            <span class="chip">UML Diagrams</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Other Skills</h3>
+          <div class="chips">
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Software Documentation</span>
+            <span class="chip">Data Validation</span>
+            <span class="chip">Communication</span>
+            <span class="chip">Teamwork</span>
+            <span class="chip">Time Management</span>
+            <span class="chip">MS Office</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2>Projects</h2>
+      <p class="section-lead">A few things I've designed and built end to end.</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb thumb-1"></div>
+          <div class="project-body">
+            <h3>School/College Pick and Drop Management System</h3>
+            <p>A mobile-based transportation system connecting parents with verified drivers — live GPS tracking, route management, notifications, and admin controls. Final year project.</p>
+            <div class="project-tags"><span>Flutter</span><span>Firebase</span></div>
+            <a href="https://github.com/AimanShabbir03/Final-Year-Project.git" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-2"></div>
+          <div class="project-body">
+            <h3>Cooking Recipe App</h3>
+            <p>A recipe-based application designed to help users explore and manage cooking recipes through a simple, user-friendly interface.</p>
+            <div class="project-tags"><span>Mobile App</span><span>UI Design</span></div>
+            <a href="https://github.com/AimanShabbir03/Cooking-Recipe-App.git" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-3"></div>
+          <div class="project-body">
+            <h3>Event Management System</h3>
+            <p>A database-focused project designed to manage event-related information and operations, demonstrating structured data management.</p>
+            <div class="project-tags"><span>Database</span><span>SQL</span></div>
+            <a href="https://github.com/AimanShabbir03/Event-Management-System-database-project.git" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section section-alt" id="resume">
+    <div class="section-inner">
+      <div class="resume-head">
+        <div>
+          <h2>Resume</h2>
+          <p class="section-lead">Where I've worked and what I studied.</p>
+        </div>
+        <a href="AimanShabbir_Resume.pdf" class="btn btn-primary" download>Download PDF</a>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">Sep 2026 — Present</span>
+          <h3>Industrial Internship — Software &amp; Technology, CodeAlpha</h3>
+          <p>Training and project-based learning across front-end development, Python, C, Java, backend development, and app development, with exposure to machine learning and AI.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">Oct 2025 — Present</span>
+          <h3>Freelancer, Speech Recording Project</h3>
+          <p>Recording and reviewing speech and voice data for different projects, maintaining accuracy, clarity, and consistency against project guidelines.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2022 — 2026</span>
+          <h3>BS Software Engineering, COMSATS University Islamabad</h3>
+          <p>Abbottabad Campus. CGPA 3.20 / 4.00. Final year project on mobile-based transportation management using Flutter and Firebase.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-text">
+        <h2>Let's talk</h2>
+        <p>Have a project in mind, or just want to say hello? My inbox is open.</p>
+        <ul class="contact-links">
+          <li><a href="mailto:aimilicious02@gmail.com">aimilicious02@gmail.com</a></li>
+          <li><a href="https://github.com/AimanShabbir03" target="_blank" rel="noopener">github.com/AimanShabbir03</a></li>
+          <li><a href="https://www.linkedin.com/in/aiman-s-342390326/" target="_blank" rel="noopener">linkedin.com/in/aiman-s-342390326</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell me about your project" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Designed &amp; built by Aiman Shabbir.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
