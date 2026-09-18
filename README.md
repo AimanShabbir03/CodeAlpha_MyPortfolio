@@ -1,84 +1,101 @@
-# 💼 Personal Portfolio Website
+# 💼 My Portfolio — Aiman Shabbir
 
-A clean, responsive, and interactive **Personal Portfolio Website** created using **HTML, CSS, and JavaScript in a single HTML file**.
-
-The portfolio showcases personal information, skills, projects, resume, and contact details through a modern and user-friendly interface. It also includes smooth scrolling, animations, hover effects, and a responsive layout for different screen sizes.
-
-## ✨ Features
-
-* 👩‍💻 Personal introduction and About section
-* 🛠️ Skills and technical expertise section
-* 📂 Projects showcase
-* 📄 Resume section
-* 📧 Contact information
-* 🎨 Clean and modern user interface
-* 📱 Responsive design for different screen sizes
-* 🖱️ Interactive hover effects
-* ✨ Smooth animations and transitions
-* 🔗 Navigation between different portfolio sections
-* 📜 Smooth scrolling
-
-## 🛠️ Technologies Used
-
-* **HTML5** – Website structure and content
-* **CSS3** – Styling, responsive layout, animations, hover effects, and transitions
-* **JavaScript** – Interactive functionality and smooth user interactions
-
-## 📂 Project Structure
-
-```text
-portfolio.html
-```
-
-All HTML, CSS, and JavaScript code is contained in a **single `portfolio.html` file**.
-
-## 🚀 How to Run
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/AimanShabbir03/CodeAlpha_MyPortfolio.git
-```
-
-2. Open the project folder.
-3. Open `portfolio.html` in any modern web browser.
-4. Explore the different sections of the portfolio.
-
-## 🎯 Task Objectives
-
-This project was created as part of the **CodeAlpha Portfolio Website Task** to practice:
-
-* Designing a personal portfolio using HTML and CSS
-* Creating responsive web layouts
-* Showcasing skills and projects
-* Adding resume and contact information
-* Implementing smooth scrolling
-* Adding animations and hover effects
-* Creating an interactive and user-friendly portfolio
-
-## 📱 Responsive Design
-
-The portfolio is designed to provide a consistent experience across different devices, including:
-
-* 💻 Desktop
-* 📱 Mobile
-* 📲 Tablet
-
-## 🔮 Future Improvements
-
-* Deploy the portfolio using GitHub Pages or Netlify
-* Add a downloadable resume
-* Add a contact form with backend functionality
-* Add more projects and certifications
-* Add a dark/light mode
-* Improve accessibility and performance
-
-## 👩‍💻 Author
-
-**Aiman Shabbir**
-
-Frontend Developer | Software Engineering Graduate
+A personal portfolio website built with plain **HTML, CSS, and JavaScript** — showcasing my skills, projects, resume, and contact information in a clean, responsive, single-page layout. Built as part of the **CodeAlpha Internship** (Front-End Development track).
 
 ---
 
-⭐ If you like this project, feel free to give it a star!
+## ✨ Features
+
+- **Responsive one-page layout** with dedicated sections: Home, About, Skills, Projects, Resume, and Contact
+- **Sticky navigation bar** with a mobile hamburger menu and active-link highlighting on scroll
+- **Smooth scrolling** between sections
+- **Scroll-triggered animations** — sections and content fade/slide into view as you scroll
+- **Hover effects** — animated skill chips, lifting project cards, underline transitions on links
+- **About section** with quick stats (projects built, certifications earned, CGPA)
+- **Skills** grouped by category — Programming & Development, Backend & Database, Tools & Technologies, and Other Skills
+- **Projects grid** showcasing real projects with descriptions, tags, and links to their GitHub repositories
+- **Resume section** with a working "Download PDF" button and a work/education timeline
+- **Contact section** with a working front-end contact form (demo) plus direct email, GitHub, and LinkedIn links
+- **Fully responsive** — adapts cleanly from desktop down to mobile
+
+---
+
+## 🛠️ Built With
+
+- **HTML5** — semantic structure
+- **CSS3** — custom properties (CSS variables), Grid & Flexbox layout, transitions and keyframe animations
+- **Vanilla JavaScript (ES6)** — mobile nav toggle, scroll-based active section highlighting, and the contact form handler (no frameworks or libraries)
+- **Google Fonts** — Fraunces (display) & Inter (body text)
+
+---
+
+## 📁 Project Structure
+
+```
+CodeAlpha_MyPortfolio/
+├── My Portfolio/
+│   ├── index.html      # Page markup/structure
+│   ├── style.css        # All styling (theme, layout, animations, responsive rules)
+│   └── script.js        # Nav toggle, scroll highlighting, contact form logic
+└── README.md             # Project documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+No build tools, no dependencies — just open it in a browser.
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AimanShabbir03/CodeAlpha_MyPortfolio.git
+   ```
+2. **Move into the portfolio folder**
+   ```bash
+   cd "CodeAlpha_MyPortfolio/My Portfolio"
+   ```
+3. **Open `index.html`**
+   - Double-click the file to open it directly in your browser, **or**
+   - Use a live server (e.g. the VS Code "Live Server" extension) for the best experience
+
+That's it — no installation required.
+
+---
+
+## 🌐 Deployment
+
+This site is static, so it can be hosted for free on either:
+
+**GitHub Pages**
+1. Go to the repository's **Settings → Pages**
+2. Under "Build and deployment", choose **Deploy from a branch**
+3. Select the branch and the `/My Portfolio` folder (or move the files to the repo root if Pages doesn't support a subfolder as the source), then save
+
+**Netlify**
+1. Go to [netlify.com](https://www.netlify.com) and sign in
+2. Choose **"Deploy manually"** and drag in the `My Portfolio` folder
+3. Netlify gives you a live link instantly
+
+---
+
+## 👩‍💻 About Me
+
+**Aiman Shabbir**
+Software Engineer & Frontend Developer
+
+I'm a Software Engineering graduate passionate about building practical, user-friendly software solutions — with experience across front-end development, UI/UX design, mobile app development, software documentation, and automation testing.
+
+- 📍 Abbottabad, Pakistan
+- 📧 Email: [aimilicious02@gmail.com](mailto:aimilicious02@gmail.com)
+- 💻 GitHub: [@AimanShabbir03](https://github.com/AimanShabbir03)
+- 🔗 LinkedIn: [aiman-s-342390326](https://www.linkedin.com/in/aiman-s-342390326/)
+
+---
+
+## 📄 License
+
+This project is open source and available for learning purposes. Feel free to fork it and build on top of it.
+
+---
+
+⭐ If you found this project helpful, consider giving it a star on GitHub!
